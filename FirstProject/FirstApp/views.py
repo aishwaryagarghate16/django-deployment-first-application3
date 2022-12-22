@@ -190,5 +190,9 @@ def homepage(request):
     return HttpResponse(htmldata);    
 
       
-      
+  
+
+#git_view_func()
+def git_view_func(request):
+	return HttpResponse("<h1>Hello from git hub view function</h1><hr />");
       
